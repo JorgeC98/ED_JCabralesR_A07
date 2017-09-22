@@ -111,12 +111,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="DLList.h" />
     <ClInclude Include="MyList.h" />
     <ClInclude Include="Node.h" />
+    <ClInclude Include="NodeDL.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="DLList.cpp" />
     <ClCompile Include="MyList.cpp" />
     <ClCompile Include="Node.cpp" />
+    <ClCompile Include="NodeDL.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
